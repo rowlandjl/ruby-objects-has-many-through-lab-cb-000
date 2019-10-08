@@ -11,4 +11,13 @@ class Doctor
     @@all 
   end 
   
+  def new_appointment(patient, date)
+  end 
+  
+  def appointments 
+  end 
+  
+  def patients 
+  end 
+  
 end 
