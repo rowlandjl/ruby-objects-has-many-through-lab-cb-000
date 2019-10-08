@@ -21,6 +21,7 @@ class Doctor
   end 
   
   def patients 
+    Patient.all.collect {|patient| 
   end 
   
 end 
