@@ -3,7 +3,7 @@ class Patient
   
   @@all = []
   
-  def initialize(doctor, date)
+  def initialize(doctor)
     @doctor = doctor 
     @date = date 
     self.class.all << self 
